@@ -96,5 +96,11 @@ public class Tablero_1 {
         Cordenada CordenadaReyB = new Cordenada(7, 4);
         Rey ReyB = new Rey(CordenadaReyB, "Blanco");
         Tablero[CordenadaReyB.i][CordenadaReyB.j]= ReyB.Nombre;
+        
+        Tablero[CordenadaAlfilB.i][CordenadaAlfilB.j]="|___|";
+        CordenadaAlfilB.i=5;
+        CordenadaAlfilB.j=3;
+        AlfilB.CordenadaIJ=CordenadaAlfilB;
+        Tablero[CordenadaAlfilB.i][CordenadaAlfilB.j]=AlfilB.Nombre;
         }
     }
